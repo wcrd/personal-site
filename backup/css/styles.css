@@ -1,0 +1,21 @@
+body {
+  background: rgba(0,0,0,0.9);
+}
+
+.center-container {
+  display: inline-block;
+  position: absolute;
+  width: 90%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 50%;
+  /* Sit a little bit above center */
+  transform: perspective(1px) translateY(-90%);
+}
+
+#message {
+  color: ghostwhite;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
